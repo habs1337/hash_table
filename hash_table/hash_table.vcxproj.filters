@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{77a56b90-8a1b-4d4d-a2d4-31813686cbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struct">
+      <UniqueIdentifier>{06339e51-e839-465e-8bee-a84b1e09c1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{2572711b-81fa-4d60-988a-0a91d5ac2be8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="c_hash.cpp">
+      <Filter>hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="c_hash.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
